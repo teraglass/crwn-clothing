@@ -14,3 +14,5 @@ export const store = createStore(rootReducer, applyMiddleware(...middelewares));
 
 export const persistor = persistStore(store);
 
+
+
